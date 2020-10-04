@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <main>
+        <div class="inputs">
+            <h1>Formilarios en HTML</h1>
+            <h2>Name</h2>
+            <form action="end_point">
+                <label for="name">
+                    <span>Informacion de contacto</span>
+                    <input type="text" id="name"> 
+                    <!-- el nombre del id tiene que ser el mismo que el del for de la etiqueta lable -->
+                </label>
+                <h2>Date</h2>
+                <span>Fecha</span>
+                <label for="fecha">
+                    <input type="date" id="fechainicio">
+                </label>
+                <h2>Horario</h2>
+                <label for="horario">
+                    <span>Horario preferido</span>
+                    <input type="time" id="horario">
+                </label>
+            </form>
+        </div>
+        <div class="calendario">
+            <form action="">
+                <label for="calendario">
+                    <span>Calendario</span>
+                    <input type="datetime-local" name="calendario" id="calendario">
+                </label>
+            </form>
+
+        </div>
+    </main>
+</body>
+</html>
