@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+div {
+    border: 1px black solid;
+}
+
+.top-box {
+    height: 56px;
+    width: 200px;
+    border-radius: 8px;
+    margin: 0 auto;
+    position: relative;
+    bottom: -28px;
+    background-color: red;
+}
+
+.top-box p {
+    text-align: center;
+    position: relative;
+    top: 14px;
+}
+
+.main-box {
+    height: 250px;
+    width: 375px;
+    border-radius: 40px;
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+
+.main-box p {
+    width: 275px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 70px;
+}
+
