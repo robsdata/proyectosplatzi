@@ -23,6 +23,7 @@ body {
 
 .box {
     height: 10rem;
+    /* Cuando ya no hay espacio, los contenedores empiezan a bajar y a tomar el espacio total de la siguiente columna */
     flex-basis: 10rem;
     flex-grow: 1;
 }
@@ -35,7 +36,6 @@ body {
     background-color: blueviolet ;
 }
 
-
 .box3 {
     background-color: burlywood;
 }
@@ -43,7 +43,6 @@ body {
 .box4 {
     background-color: cadetblue;
 }
-
 
 .box5 {
     background-color: coral;
