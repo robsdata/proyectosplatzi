@@ -1,0 +1,4 @@
+img {
+    /* En imagenes el width 100% ayuda a que siempre se adapte al 100% al tamaño del padre, buena practica */
+    width: 100%; 
+}

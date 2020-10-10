@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes Responsive</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main>
+        <picture>
+            <!-- Agregamos media queries, y especificamos desde que tipo de view port empiezan a cargar las imagenes con la propiedad media -->
+
+            <!--  La etiqueta con el viewport mas alto tiene que ir arriba -->
+            <source media="(min-width: 1300px;)" srcset="./image/large.jpg"> 
+
+            <source media="(min-width: 1000px;)" srcset="./image/medium.jpg">
+            
+                <!-- Imagen base que se va a cargar siempre en nuestro dispositivo mobile -->
+            <img src="./image/small.jpg" alt="Imagen ejemplo"> <!-- Esta etiqueta es importante porque es la que va a renderizar directamente la imagen, pero se reescribe con la etiqueta source -->
+        </picture>
+    </main>
+</body>
+</html>
