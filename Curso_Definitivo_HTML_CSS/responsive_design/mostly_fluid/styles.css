@@ -43,3 +43,41 @@ html {
 .c5 {
     background-color: #dfe1e5;
 }
+
+/* Implementanto un Media Query */
+
+/* Especificando tamaño minimo donde se va a generar el cambio */
+/* @media (min-width: 600px) {
+    .c2, 
+    .c3, 
+    .c4 {
+        width: 50%;
+    }
+}  */
+
+/* Implementando segundo media query */
+/* @media (min-width: 800px) {
+
+    .container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .c1 {
+        width: 60%;
+    }
+    .c2 {
+        width: 40%;
+
+    }
+    .c3,
+    .c4 {
+        width: 33%;
+    }
+    .c5 {
+        width: 34%;
+    }
+}
+ */
+
+
